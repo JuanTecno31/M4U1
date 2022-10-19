@@ -1,23 +1,53 @@
 import React from 'react';
+import '../styles/components/pages/NosotrosPage.css'
 
 const Nosotros = (props) => {
 
     return (
-        <main className='holder'>
-            <div className='historia'></div>
-            <h2>Nuestras raíces</h2>
-            <h3>9 de Julio</h3>
-            <img src='img/9dejulio.jpg' width={150} alt='9dejulio'></img>
-            <p>Nueve de Julio es una ciudad ubicada en el interior de la província de Buenos Aires</p>
-            <h3>12 de Octubre</h3>
-            <img src='img/12deoctubre.jpg' width={150} alt='12deoctubre'></img>
-            <p>Doce de Octubre es un pueblo perteneciente al partido de 9 de Julio</p>
-            <h2>¿Quiénes somos?</h2>
-            <img src='img/local.jpeg' width={150} alt='local'></img>
-            <p>Nosotros somos El Faro, un lugar donde podés volver a encontrarte con tus raíces</p>
-        </main> 
+        <main>
+            <div class="container">
+                <div class="categoria">Nuestras raíces</div>
+                <div class="box">
+                    <div class="marco">
+                        <img src="img/9dejulio.jpg" class="foto" alt="" />
+                    </div>
+                    <div class="marco2">
+                        <div class="texto">
+                            <div class="marca">9 de JULIO</div>
+                            <div class="descripcion">Nueve de Julio es una ciudad ubicada en el interior de la província de Buenos Aires.</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="marco">
+                        <img src="img/12deoctubre.jpg" class="foto" alt="" />
+                    </div>
+                    <div class="marco2">
+                        <div class="texto">
+                            <div class="marca">12 de OCTUBRE</div>
+                            <div class="descripcion">Doce de Octubre es un pueblo perteneciente al partido de 9 de Julio</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="categoria">¿Quiénes somos?</div>
+
+                <div class="box">
+                    <div class="marco">
+                        <img src="img/local.jpeg" class="foto" alt="" />
+                    </div>
+                    <div class="marco2">
+                        <div class="texto">
+                            <div class="marca">El Faro</div>
+                            <div class="descripcion">Nosotros somos El Faro, un lugar donde podés volver a reencontrarte con tus raíces</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
     );
-    }
+}
 
 
 export default Nosotros;

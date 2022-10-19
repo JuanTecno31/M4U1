@@ -1,0 +1,143 @@
+.page-header{
+    margin-bottom: 5%;
+}
+
+.contact {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: space-around;
+    height: 900px;
+    max-width: 100%;
+    padding-top: 5%;
+    position: relative;
+}
+
+.cumb{
+    text-decoration: none;
+    color: black;
+}
+
+/* Inicio de sección contacto */
+
+.box1 {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    height: 25%;
+    justify-content: space-around;
+    position: relative;
+    width: 100%;
+    margin:0 auto;
+}
+
+.caja{
+    height: 200px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    justify-content: space-around;
+    padding: 45px 0;
+    text-align: center;
+    width: 220px;
+}
+
+.fa-whatsapp{
+    color: rgb(6, 64, 65);
+    font-size: 30px;
+}
+
+.fa-phone-flip{
+    color: rgb(6, 64, 65);
+    font-size: 30px;
+}
+
+.fa-map-location-dot{
+    color: rgb(6, 64, 65);
+    font-size: 30px;
+}
+
+.texto1{
+    color: black;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+.texto2{
+    color: black;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+.texto3{
+    color: black;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+/* fin de sección contacto */
+
+/* Inicio de formulario */
+
+.box2 {
+    background-color: #fff;
+    display: flex;
+    padding: 5%;
+    position: relative;
+    width: 50%;
+    height: 600px;
+}
+
+main ul li {
+    display: flex;
+    height: 100px;
+}
+
+.form-label {
+    color: black;
+    display: flex;
+    font-family: 'Raleway', sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    padding-top: 20px;
+    text-align: start;
+}
+
+.form-group {
+    position: relative;
+    width: 100%;
+}
+
+.formulario textarea {
+    border-radius: 15px 15px 15px 15px;
+    width: 500px;
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+.formulario input[type="submit"] {
+    background: rgb(6, 64, 65);
+    border: 2px solid rgb(6, 64, 65);
+    color: #fff;
+    cursor: pointer;
+    fill: #fff;
+    padding: 15px 25px;
+    position: relative;
+    padding: 15px 25px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 2px;
+}
+
+/* Fin de formulario */
+
+/* Inicio mapa */
+
+/* .box3{
+    padding-top: 9%;
+    padding-left: 9%;
+} */
+
+/* Fin mapa */
