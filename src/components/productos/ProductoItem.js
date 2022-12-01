@@ -1,5 +1,4 @@
 import React from "react";
-// import '../../styles/components/pages/ProductosPage.css';
 
 const ProductoItem = (props) => {
 
@@ -8,12 +7,23 @@ const ProductoItem = (props) => {
     return (
 
         <div className="productos">
-            <h1>{nombre}</h1>
-            <h2>{titulo}</h2>
-            <h3>{descripcion}</h3>
-            <img src={imagen} />
+            <div class="container">
+                <div class="nameprod">{nombre}</div>
+                <div class="cajaprod">
+                    <div class="marcoprod1">
+                        <img src={imagen} class="fotoprod" alt="" />
+                    </div>
+                    <div class="marcoprod2">
+                        <div class="textoprod">
+                            <div class="detalle">{titulo}</div>
+                            <div class="detalle">{descripcion}</div>
+                            <div class="detalle">{stock}</div>
+                            <div class="detalle">{precio}</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div dangerouslySetInnerHTML={{ __html: body }} />
-            <hr />
         </div>
     );
 
