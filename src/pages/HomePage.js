@@ -10,7 +10,7 @@ const HomePage = (props) => {
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
-                        src="/img/picada.jpg"
+                        src="/img/Picada.jpg"
                         alt="First slide"
                     />
                 </Carousel.Item>
