@@ -1,5 +1,5 @@
 import React from "react";
-import '../../styles/components/pages/ProductosPage.css';
+// import '../../styles/components/pages/ProductosPage.css';
 
 const ProductoItem = (props) => {
 
