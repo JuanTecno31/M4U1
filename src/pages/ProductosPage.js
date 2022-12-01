@@ -22,7 +22,7 @@ const ProductosPage = (props) => {
 
     return (
         <section className='holder'>
-            <h2>Productos</h2>
+            <h2 class='tituloprod'>Lista de productos</h2>
             {loading ? (
                 <p>Cargando...</p>
             ) : (

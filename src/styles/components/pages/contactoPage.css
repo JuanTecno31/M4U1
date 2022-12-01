@@ -18,7 +18,7 @@
     color: black;
 }
 
-/* Inicio de sección contacto */
+/* Inicio de sección cajas contacto */
 
 .box1 {
     align-items: center;
@@ -124,7 +124,6 @@ main ul li {
     fill: #fff;
     padding: 15px 25px;
     position: relative;
-    padding: 15px 25px;
     font-size: 16px;
     font-weight: 700;
     line-height: 18px;
@@ -135,9 +134,16 @@ main ul li {
 
 /* Inicio mapa */
 
-/* .box3{
-    padding-top: 9%;
-    padding-left: 9%;
-} */
+.box3{
+    display: inline-flex;
+    justify-content: flex-end;
+    margin: 5%;
+}
+
+.mapa{
+    padding-left: 15%;
+    width: 650px;
+    height: 398px;
+}
 
 /* Fin mapa */

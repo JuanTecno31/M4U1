@@ -1,6 +1,7 @@
 /* Fondo de la pagina */
 header h1 {
     display: flex;
+    justify-content: center;
     background-color: rgb(6, 64, 65);
     max-width: 100%;
     margin: 0;

@@ -1,4 +1,4 @@
-import '../styles/components/pages/contactoPage.css';
+import '../styles/components/pages/ContactoPage.css';
 import React, { useState } from 'react';
 import axios from 'axios';
 
@@ -42,7 +42,7 @@ const ContactoPage = (props) => {
         <div class="container">
           <div class="row align-items-center">
             <div class="col-md-9">
-              <h1 class="h2 title-line mb-2">Contacto</h1>
+              <h1>Contacto</h1>
             </div>
           </div>
         </div>
@@ -108,13 +108,13 @@ const ContactoPage = (props) => {
               <input type="submit" value="ENVIAR MENSAJE" />
             </p>
           </form>
+          <div class="box3">
+            <div>
+              <img class="mapa" src="img/mapa.jpg" />
+            </div>
+          </div>
+
         </div>
-        {/* <div class="box3">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3271.690670376246!2d-57.959010085184005!3d-34.91421148149883!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a2e6343a998b85%3A0x6d11be3225cba3d5!2sC.%2045%20738%2C%20B1900AED%20La%20Plata%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1662135135222!5m2!1ses-419!2sar"
-              width="600" height="390" style="border:0;" allowfullscreen="" loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"></iframe>
-          </div> */}
       </div>
     </main>
   );
