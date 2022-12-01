@@ -1,4 +1,4 @@
-import '../styles/components/pages/ContactoPage.css';
+import '../styles/components/pages/contactoPage.css';
 import React, { useState } from 'react';
 import axios from 'axios';
 
