@@ -1,7 +1,7 @@
 /* Inicio de contenedor */
 
 .container{
-    justify-content: center;
+    align-content: center;
     display: flex;
     height: 100%;
     flex-direction: column;
@@ -17,10 +17,10 @@
 
 .categoria{
     color: black;
-    justify-content: center;
+    left: 40%;
     position: flex;
     margin-bottom: 5%;
-    font-size: 10px;
+    font-size: 50px;
     text-align: center;
     font-weight: bolder;
     text-shadow: 0.1em 0.1em 0.3em grey;
