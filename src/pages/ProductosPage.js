@@ -12,7 +12,7 @@ const ProductosPage = (props) => {
     useEffect(() => {
         const cargarProductos = async () => {
             setLoading(true);
-            const response = await axios.get('http://localhost:3000/api/productos');
+            const response = await axios.get(`${process.env.REACT_APP_API_URL}/api/productos`);
             setProductos(response.data);
             setLoading(false);
         };
